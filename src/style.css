@@ -1,33 +1,48 @@
-body{
-    display: flex;
-    justify-content: center;
-}
-.title{
-    margin-left: -30px;
-}
-.score-title{
-    display: flex;
-    gap: 10px;
+body {
+  display: flex;
+  justify-content: center;
 }
 
-.container{
-    display: flex;
-    gap: 50px;
+.title {
+  margin-left: -30px;
 }
-.refresh{
-    height: 27px;
-    margin-top: 19px;
+
+.score-title {
+  display: flex;
+  gap: 10px;
 }
-.display{
-    margin-top: -90px;
+
+.container {
+  display: flex;
+  gap: 50px;
 }
-.display:nth-child(even){
-    background-color: rgb(209,209,209);
+
+.refresh {
+  height: 27px;
+  margin-top: 19px;
 }
-.form .inpoot{
-margin-bottom: 15px;
+
+.display {
+  margin-top: -90px;
+  width: 50%;
+  border: 3px solid black;
 }
-.form .add-btn{
-    display: flex;
-    justify-content: flex-end;
+
+.even:nth-child(even) {
+  background-color: rgb(209, 209, 209);
+  width: 100%;
+}
+
+.form .inpoot {
+  margin-bottom: 15px;
+}
+
+.form .add-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputs {
+  margin-left: 10px;
+  height: 25px;
 }
