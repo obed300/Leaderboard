@@ -5,6 +5,7 @@
 - [Leaderboard](#leaderboard)
   - [Built With](#built-with)
   - [Getting Started](#getting-started)
+    - [Key Features ](#key-features-)
     - [Prerequisites](#prerequisites)
     - [Install](#install)
     - [Run tests](#run-tests)
@@ -24,6 +25,11 @@ In this project. I built a leaderboard which is a website that displays scores s
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
+### Key Features <a name="key-features"></a>
+- **[webpack]**
+- **[ES6 features]**
+- **[notably modules]**
 
 ### Prerequisites
 - Download Visual Studio Code.
