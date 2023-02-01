@@ -1,1 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+}
 
+.title {
+  margin-left: -30px;
+}
+
+.score-title {
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.refresh {
+  height: 27px;
+  margin-top: 19px;
+}
+
+.display {
+  margin-top: -90px;
+  width: 50%;
+  border: 3px solid black;
+}
+
+.even:nth-child(even) {
+  background-color: rgb(209, 209, 209);
+  width: 100%;
+}
+
+.form .inpoot {
+  margin-bottom: 15px;
+}
+
+.form .add-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputs {
+  margin-left: 10px;
+  height: 25px;
+}
