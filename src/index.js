@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
     UI.addScore(scores);
 });
 
-refresh.addEventListener('click', (e) =>{
+refresh.addEventListener('click', (e) => {
     e.preventDefault();
     UI.displayScores();
 })

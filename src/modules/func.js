@@ -28,7 +28,7 @@ export default class UI{
     static async displayScores () {
         try {
             const scores = await UI.getScorefromAPI();
-            scores.forEach(element => UI.libraryScores(element));
+            scores.forEach((element) => UI.libraryScores(element));
         } catch (error) {
             throw error;
         }
