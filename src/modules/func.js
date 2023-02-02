@@ -1,3 +1,6 @@
+import postScore from "./post.js";
+import getData from "./get.js";
+
 const display = document.querySelector('.display');
 
 export default class UI{

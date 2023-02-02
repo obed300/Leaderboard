@@ -1,11 +1,11 @@
-import _ from 'lodash';
 import './style.css';
-import UI from './modules/func.js';
-import Score from './modules/class.js';
+import Score from "./modules/class.js";
+import UI from "./modules/func.js";
 
 const form = document.querySelector('.form');
 const nameinput = document.querySelector('.name-input');
 const scoreinput = document.querySelector('.score-input');
+const refresh = document.querySelector('.refresh');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -15,6 +15,11 @@ form.addEventListener('submit', (e) => {
     UI.libraryScores(scores);
     UI.addScore(scores);
 });
+
+refresh.addEventListener('click', (e) =>{
+    e.preventDefault();
+    UI.displayScores();
+})
 
 document.addEventListener('DOMContentLoaded',(e)=>{
     e.preventDefault();
