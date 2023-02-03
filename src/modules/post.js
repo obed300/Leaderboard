@@ -1,5 +1,5 @@
 
-export default async function postScore(user,score) {
+ const postScore = async (user,score) => {
     try {
       const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/U048O1pn604XSuQgI6WO/scores/', {
         method: 'POST',
@@ -18,3 +18,4 @@ export default async function postScore(user,score) {
     }
   }
   
+  export default postScore;
