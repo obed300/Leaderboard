@@ -2,33 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
 </head>
 <body>
-    <div class="main-wrapper">
-        <h1 class="title">My Leaderboard</h1>
-        <div class="container">
-            <div class="score-title">
-                <h2>Recent score</h2><button class="refresh">Refresh</button>
+    <h1>Leaderboard</h1>
+    <div class="main">
+        <div class="scores">
+            <div class="title">
+                <h2>Recent scores</h2>
+                <button type="button" id="refresh">Refresh</button>
             </div>
-            
-            <form class="form">
-                <h2 class="">Add your score</h2>
-                <div class="inpoot">
-                    <input class="name-input" type="text" placeholder="Your name">
-                </div>
-                <div class= "inpoot">
-                    <input class="score-input" type="number" placeholder="Your score">
-                </div>
-                <div class="add-btn">
-                    <button type="submit" class="Add-btn">submit</button>
-                </div>
-            </form>
-            
+            <div class="results">
+
+            </div>
         </div>
-        <div class="display"></div> 
+        <div class="form">
+            <h2>Add your scoore</h2>
+            <input type="text" placeholder="Your name" id="name" required>
+            <input type="text" placeholder="Your score" id="score" required>
+            <button type="button" id="scoreBtn">Submit</button>
+        </div>
     </div>
-    
 </body>
 </html>
