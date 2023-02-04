@@ -1,3 +1,16 @@
+
+.Main-title {
+  background-color: black;
+  color: aliceblue;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.Main-title:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
 .main {
   display: flex;
   flex-direction: row;
@@ -21,6 +34,7 @@ h1 {
   justify-content: center;
   align-items: center;
   gap: 2em;
+  font-weight: bolder;
 }
 
 .title button,
@@ -29,12 +43,11 @@ h1 {
   background-color: white;
   box-shadow: 2px 2px 2px black;
   padding: 0.2em 0.7em;
-  font-family: 'Poppins', sans-serif;
   cursor: pointer;
 }
 
 .title h2 {
-  font-weight: 500;
+  font-weight: 20rem;
   font-size: 1.7em;
 }
 
@@ -49,11 +62,12 @@ h1 {
 
 input[type=text] {
   width: 13em;
-  border: 2px solid black;
+  border: 3px solid black;
   padding: 0.2em 0.7em;
   margin-bottom: 1em;
-  box-shadow: 2px 2px 2px black;
+  box-shadow: 2px black;
   font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
 }
 
 .form button {
@@ -65,6 +79,7 @@ input[type=text] {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
+  box-shadow: 10px 10px 10px black;
 }
 
 .scoreItem {
@@ -83,4 +98,30 @@ input[type=text] {
 
 .scoreItem p {
   margin-left: 1em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+  color: aliceblue;
+  background-color: black;
+  height: 50px;
+  margin-top: 20rem;
+}
+
+.hover {
+  background-color: blue;
+  color: black;
+  border: 3px;
+  padding: 2px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.hover:hover {
+  background-color: blue;
+  cursor: pointer;
 }
