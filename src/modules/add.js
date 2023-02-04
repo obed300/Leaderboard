@@ -1,4 +1,4 @@
-import createScore, { score } from './display.js';
+import createScore, { score } from './populate.js';
 
 const btn = document.getElementById('scoreBtn');
 

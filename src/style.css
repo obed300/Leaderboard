@@ -1,12 +1,13 @@
 .main {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 5em;
 }
 
 h1 {
   margin-left: 0.5em;
+ 
 }
 
 .scores {
